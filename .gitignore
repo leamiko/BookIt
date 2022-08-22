@@ -1,9 +1,0 @@
-/**/node_modules/
-/**/build/
-/**/dist/
-.vscode
-.env
-packages/frontend/.idea/
-packages/recommendationEngine/.idea/
-/**/__pycache__
-.idea/
