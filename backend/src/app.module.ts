@@ -27,6 +27,7 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
         return {
           type: 'postgres',
           host: configService.get('DATABASE_HOST'),
+          port: configService.get<number>('DATABASE_PORT'),
           username: configService.get('DATABASE_USER'),
           password: configService.get('DATABASE_PASSWORD'),
           database: String(configService.get('DATABASE_NAME')),
